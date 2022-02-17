@@ -12,6 +12,6 @@
 function car(model, liters, consumption1, consumption2, consumption3) {
 
 
-    return `${model} su ${liters}l baku, gali nuvaziuoti ${(liters*100/consumption1.toFixed(0))}km (magistralej, kai sanaudos yra ${consumption1}l/100km), ${(liters*100/consumption2).toFixed(0)}km (vidutiniskai, kai sanaudos yra ${consumption2}l/100km) ir ${(liters*100/consumption3.toFixed(0))}km (mieste, kai sanaudos yra ${consumption3}l/100km).`
+    return `${model} su ${liters}l baku, gali nuvaziuoti ${(liters*100/consumption1).toFixed(0)}km (magistralej, kai sanaudos yra ${consumption1}l/100km), ${(liters*100/consumption2).toFixed(0)}km (vidutiniskai, kai sanaudos yra ${consumption2}l/100km) ir ${(liters*100/consumption3).toFixed(0)}km (mieste, kai sanaudos yra ${consumption3}l/100km).`
 }
 module.exports = car;
